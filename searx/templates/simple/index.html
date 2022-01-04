@@ -4,7 +4,7 @@
 	<link rel="preload" href="https://file.coffee/u/ZzIhaLpyQ9Hsiw.png" as="image" />
         <style>
 	@media screen and (min-width: 600px) and (max-width: 780px) {
-   	 img {
+   	 .homelogo {
      	   padding-top: 50px;
    	 }
 	}
@@ -13,7 +13,7 @@
 {% block content %}
 <nav id="linkto_preferences"><a href="{{ url_for('preferences') }}">{{ icon_big('menu-outline') }}</a></nav>
 <div class="index">
-    <div class=""><img src="https://file.coffee/u/ZzIhaLpyQ9Hsiw.png" style="max-width:300px; padding-bottom:30px;"></div>
+    <div class="homelogo"><img src="https://file.coffee/u/ZzIhaLpyQ9Hsiw.png" style="max-width:300px; padding-bottom:30px;"></div>
     {% include 'simple/simple_search.html' %}
 </div>
 {% endblock %}
