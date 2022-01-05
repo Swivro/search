@@ -46,7 +46,7 @@ Global Settings
 
    brand:
      issue_url: https://github.com/searxng/searxng/issues
-     docs_url: https://searxng/searxng.github.io/searxng
+     docs_url: https://docs.searxng.org
      public_instances: https://searx.space
      wiki_url: https://github.com/searxng/searxng/wiki
 
@@ -81,6 +81,9 @@ Global Settings
 ``contact_url``:
   Contact ``mailto:`` address or WEB form.
 
+``enable_metrics``:
+  Enabled by default. Record various anonymous metrics availabled at ``/stats``,
+  ``/stats/errors`` and ``/preferences``.
 
 .. _settings global server:
 

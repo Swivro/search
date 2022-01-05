@@ -142,11 +142,12 @@ SCHEMA = {
         'debug': SettingsValue(bool, False, 'SEARXNG_DEBUG'),
         'instance_name': SettingsValue(str, 'SearXNG'),
         'contact_url': SettingsValue((None, False, str), None),
+        'enable_metrics': SettingsValue(bool, True),
     },
     'brand': {
         'issue_url': SettingsValue(str, 'https://github.com/searxng/searxng/issues'),
         'new_issue_url': SettingsValue(str, 'https://github.com/searxng/searxng/issues/new'),
-        'docs_url': SettingsValue(str, 'https://searxng.github.io/searxng'),
+        'docs_url': SettingsValue(str, 'https://docs.searxng.org'),
         'public_instances': SettingsValue(str, 'https://searx.space'),
         'wiki_url': SettingsValue(str, 'https://github.com/searxng/searxng/wiki'),
     },
