@@ -35,6 +35,10 @@
    .index {
      margin-top: -1.5vw;
     }
+    .footertext {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
   </style>
   <link rel="icon" href="https://file.coffee/u/mHn_iCJJ2Tqm-z.png" sizes="any">
 </head>
@@ -55,10 +59,10 @@
     {% endblock %}
   </main>
   <footer>
-    <p>
+    <p class="footertext">
     {{ _('Currently running') }} <a href="https://docs.searxng.org/" target=_blank>searxng</a> {{ searx_version }} <a href="https://github.com/Swivro/searxng" target=_blank>[click for source]</a><br/>
-    <p>XMR: 42Uu1Ayk5bxje2E6c5fzcM46Q75iNvrFHj4i3QZYYo9agjAyaLKWCdJKr9TfrmeNafAAHZGc4vMDqJJcDwy67uhaGzhbT2y</p>
-    <p>Tor v3: <a href="http://sdupg55ie7jpj3urdgyhxzgcv5ube7bq5gzbdtvpa3k44wdlxoeuvpid.onion">sdupg55ie7jpj3urdgyhxzgcv5ube7bq5gzbdtvpa3k44wdlxoeuvpid.onion</a></p>
+    <p class="footertext">XMR: 42Uu1Ayk5bxje2E6c5fzcM46Q75iNvrFHj4i3QZYYo9agjAyaLKWCdJKr9TfrmeNafAAHZGc4vMDqJJcDwy67uhaGzhbT2y</p>
+    <p class="footertext">Tor v3: <a href="http://sdupg55ie7jpj3urdgyhxzgcv5ube7bq5gzbdtvpa3k44wdlxoeuvpid.onion">sdupg55ie7jpj3urdgyhxzgcv5ube7bq5gzbdtvpa3k44wdlxoeuvpid.onion</a></p>
        <!-- <a href="{{ searx_git_url }}">{{ _('Source code') }}</a> |
         <a href="{{ get_setting('brand.issue_url') }}">{{ _('Issue tracker') }}</a> |
         <a href="{{ url_for('stats') }}">{{ _('Engine stats') }}</a> |
