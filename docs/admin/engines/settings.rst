@@ -142,6 +142,36 @@ Global Settings
 ``default_http_headers``:
   Set additional HTTP headers, see `#755 <https://github.com/searx/searx/issues/715>`__
 
+
+.. _settings redis:
+
+``redis:``
+----------
+
+.. _Redis.from_url(url): https://redis-py.readthedocs.io/en/stable/connections.html#redis.client.Redis.from_url
+
+``url``
+  URL to connect redis database, see `Redis.from_url(url)`_ & :ref:`redis db`::
+
+    redis://[[username]:[password]]@localhost:6379/0
+    rediss://[[username]:[password]]@localhost:6379/0
+    unix://[[username]:[password]]@/path/to/socket.sock?db=0
+
+.. admonition:: Tip for developers
+
+   To set up a redis instance simply use::
+
+     $ ./manage redis.build
+     $ sudo -H ./manage redis.install
+
+   To get access rights to this instance, your developer account needs to be
+   added to the *searxng-redis* group::
+
+     $ sudo -H ./manage redis.addgrp "${USER}"
+     # don't forget to logout & login to get member of group
+
+.. _settings outgoing:
+
 ``outgoing:``
 -------------
 
@@ -222,6 +252,26 @@ Communication with search engines.
 ``max_redirects`` :
   30 by default. Maximum redirect before it is an error.
 
+``categories_as_tabs:``
+-----------------------
+
+A list of the categories that are displayed as tabs in the user interface.
+Categories not listed here can still be searched with the :ref:`search-syntax`.
+
+.. code-block:: yaml
+
+  categories_as_tabs:
+    general:
+    images:
+    videos:
+    news:
+    map:
+    music:
+    it:
+    science:
+    files:
+    social media:
+
 .. _settings engine:
 
 Engine settings
@@ -282,7 +332,7 @@ engine is shown.  Most of the options have a default value or even are optional.
   search engine.
 
 ``shortcut`` :
-  Code used to execute bang requests (in this case using ``!bi`` or ``?bi``)
+  Code used to execute bang requests (in this case using ``!bi``)
 
 ``base_url`` : optional
   Part of the URL that should be stable across every request.  Can be useful to
@@ -331,6 +381,33 @@ engine is shown.  Most of the options have a default value or even are optional.
 
    A few more options are possible, but they are pretty specific to some
    engines, and so won't be described here.
+
+
+Example: Multilingual Search
+----------------------------
+
+SearXNG does not support true multilingual search.  You have to use the language
+prefix in your search query when searching in a different language.
+
+But there is a workaround: By adding a new search engine with a different
+language, SearXNG will search in your default and other language.
+
+Example configuration in settings.yml for a German and English speaker:
+
+.. code-block:: yaml
+
+    search:
+        default_lang : "de"
+        ...
+
+    engines:
+      - name : google english
+        engine : google
+        language : en
+        ...
+
+When searching, the default google engine will return German results and
+"google english" will return English results.
 
 
 .. _settings use_default_settings:

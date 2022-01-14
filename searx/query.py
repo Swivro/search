@@ -177,7 +177,7 @@ class ExternalBangParser(QueryPartParser):
 class BangParser(QueryPartParser):
     @staticmethod
     def check(raw_value):
-        return raw_value[0] == '!' or raw_value[0] == '?'
+        return raw_value[0] == '!'
 
     def __call__(self, raw_value):
         value = raw_value[1:].replace('-', ' ').replace('_', ' ')
@@ -222,7 +222,7 @@ class BangParser(QueryPartParser):
         # check if query starts with categorie name
         for category in categories:
             if category.startswith(value):
-                self._add_autocomplete(first_char + category)
+                self._add_autocomplete(first_char + category.replace(' ', '_'))
 
         # check if query starts with engine name
         for engine in engines:
