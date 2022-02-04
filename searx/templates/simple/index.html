@@ -1,19 +1,11 @@
 {% extends "simple/base.html" %}
 {% from 'simple/icons.html' import icon_big %}
 {% block meta %}
-	<link rel="preload" href="https://file.coffee/u/ZzIhaLpyQ9Hsiw.png" as="image" />
-        <style>
-	@media only screen and (max-width: 600px) {
- 	 .homelogo {
-  	  padding-top: 50px;
- 	 }
-	}
-	</style>
+	<link rel="preload" href="{{ url_for('static', filename='img/searxng.png') }}" as="image" />
 {% endblock %}
 {% block content %}
-<nav id="linkto_preferences"><a href="{{ url_for('preferences') }}">{{ icon_big('menu-outline') }}</a></nav>
 <div class="index">
-    <div class="homelogo"><img src="https://file.coffee/u/ZzIhaLpyQ9Hsiw.png" style="max-width:300px; padding-bottom:30px;"></div>
+    <div class="title"><h1>SearXNG</h1></div>
     {% include 'simple/simple_search.html' %}
 </div>
 {% endblock %}
