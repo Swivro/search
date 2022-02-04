@@ -11,6 +11,9 @@
   <meta name="HandheldFriendly" content="True">
   <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
   <title>{% block title %}{% endblock %}{{ instance_name }}</title>
+  <!-- custom css -->
+  <link rel="stylesheet" href="https://cdn.swivro.net/search/style.css">
+  <!-- end custom css -->
   {% block meta %}{% endblock %}
   {% if rtl %}
   <link rel="stylesheet" href="{{ url_for('static', filename='css/searxng-rtl.min.css') }}" type="text/css" media="screen" />
