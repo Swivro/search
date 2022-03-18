@@ -154,7 +154,6 @@ STATS_SORT_PARAMETERS = {
     'time': (False, 'total', 0),
     'reliability': (False, 'reliability', 100),
 }
-_INFO_PAGES = infopage.InfoPageSet()
 
 # Flask app
 app = Flask(__name__, static_folder=settings['ui']['static_path'], template_folder=templates_path)
@@ -375,7 +374,7 @@ def get_result_template(theme_name: str, template_name: str):
     return 'result_templates/' + template_name
 
 
-def custom_url_for(endpoint: str, override_theme: Optional[str] = None, **values):
+def url_for_theme(endpoint: str, override_theme: Optional[str] = None, **values):
     suffix = ""
     if endpoint == 'static' and values.get('filename'):
         theme_name = get_current_theme_name(override=override_theme)
@@ -507,7 +506,7 @@ def render(template_name: str, override_theme: str = None, **kwargs):
     kwargs['get_pretty_url'] = get_pretty_url
 
     # helpers to create links to other pages
-    kwargs['url_for'] = custom_url_for  # override url_for function in templates
+    kwargs['url_for'] = url_for_theme  # override url_for function in templates
     kwargs['image_proxify'] = image_proxify
     kwargs['proxify'] = proxify if settings.get('result_proxy', {}).get('url') else None
     kwargs['proxify_results'] = settings.get('result_proxy', {}).get('proxify_results', True)
@@ -907,21 +906,34 @@ def __get_translated_errors(unresponsive_engines: Iterable[UnresponsiveEngine]):
 @app.route('/about', methods=['GET'])
 def about():
     """Redirect to about page"""
-    # custom_url_for is going to add the locale
-    return redirect(custom_url_for('info', pagename='about'))
+    locale = request.preferences.get_value('locale')
+    return redirect(url_for('info', pagename='about', locale=locale))
+
+
+_INFO_PAGES = infopage.InfoPageSet()
 
 
 @app.route('/info/<locale>/<pagename>', methods=['GET'])
 def info(pagename, locale):
     """Render page of online user documentation"""
+
     page = _INFO_PAGES.get_page(pagename, locale)
     if page is None:
         flask.abort(404)
 
-    user_locale = request.preferences.get_value('locale')
+    def all_pages():
+        user_locale = request.preferences.get_value('locale')
+        for for_pagename, for_page in _INFO_PAGES.all_pages(user_locale):
+            for_locale = locale
+            if for_page is None:
+                # we are sure that for_pagename != pagename
+                for_page = _INFO_PAGES.get_page(for_pagename, _INFO_PAGES.locale_default)
+                for_locale = _INFO_PAGES.locale_default
+            yield for_pagename, for_page, for_locale
+
     return render(
         'info.html',
-        all_pages=_INFO_PAGES.iter_pages(user_locale, fallback_to_default=True),
+        all_pages=all_pages(),
         active_page=page,
         active_pagename=pagename,
     )
@@ -1305,9 +1317,9 @@ def stats_checker():
 def robots():
     return Response(
         """User-agent: *
-Allow: /info/en/about
+Allow: /
+Allow: /about
 Disallow: /stats
-Disallow: /image_proxy
 Disallow: /preferences
 Disallow: /*?*q=*
 """,

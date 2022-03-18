@@ -6,20 +6,19 @@
 # asladic <ales.sladic@gmail.com>, 2017-2018
 msgid ""
 msgstr ""
-"Project-Id-Version: searx\n"
+"Project-Id-Version:  searx\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-02-21 11:52+0000\n"
-"PO-Revision-Date: 2022-03-16 04:26+0000\n"
+"PO-Revision-Date: 2022-01-06 08:26+0000\n"
 "Last-Translator: Markus Heiser <markus.heiser@darmarit.de>\n"
-"Language-Team: Slovenian <https://weblate.bubu1.eu/projects/searxng/searxng/"
-"sl/>\n"
 "Language: sl\n"
+"Language-Team: Slovenian "
+"<https://weblate.bubu1.eu/projects/searxng/searxng/sl/>\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 "
+"|| n%100==4 ? 2 : 3\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 4.11\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: searx/webapp.py:170
@@ -60,7 +59,7 @@ msgstr "zemljevid"
 
 #: searx/webapp.py:179
 msgid "onions"
-msgstr "čebula"
+msgstr ""
 
 #: searx/webapp.py:180
 msgid "science"
@@ -68,27 +67,27 @@ msgstr "znanost"
 
 #: searx/webapp.py:182
 msgid "apps"
-msgstr "aplikacije"
+msgstr ""
 
 #: searx/webapp.py:183
 msgid "dictionaries"
-msgstr "slovarji"
+msgstr ""
 
 #: searx/webapp.py:184
 msgid "lyrics"
-msgstr "besedilo"
+msgstr ""
 
 #: searx/webapp.py:185
 msgid "packages"
-msgstr "paketi"
+msgstr ""
 
 #: searx/webapp.py:186
 msgid "q&a"
-msgstr "vprašanja in odgovori"
+msgstr ""
 
 #: searx/webapp.py:187
 msgid "repos"
-msgstr "repozitoriji"
+msgstr ""
 
 #: searx/webapp.py:188
 msgid "software wikis"
@@ -100,64 +99,63 @@ msgstr ""
 
 #: searx/webapp.py:194
 msgid "auto"
-msgstr "avtomatsko"
+msgstr ""
 
 #: searx/webapp.py:194
 msgid "light"
-msgstr "svetlo"
+msgstr ""
 
 #: searx/webapp.py:194
 msgid "dark"
-msgstr "temno"
+msgstr ""
 
 #: searx/webapp.py:197
 msgid "timeout"
-msgstr "odmor"
+msgstr ""
 
 #: searx/webapp.py:198
 msgid "parsing error"
-msgstr "napaka pri razčlenjevanju"
+msgstr ""
 
 #: searx/webapp.py:199
 msgid "HTTP protocol error"
-msgstr "napaka protokola HTTP"
+msgstr ""
 
 #: searx/webapp.py:200
 msgid "network error"
-msgstr "omrežna napaka"
+msgstr ""
 
 #: searx/webapp.py:202
-#, fuzzy
 msgid "unexpected crash"
-msgstr "nepričakovana zrušitev"
+msgstr ""
 
 #: searx/webapp.py:209
 msgid "HTTP error"
-msgstr "napaka HTTP"
+msgstr ""
 
 #: searx/webapp.py:210
 msgid "HTTP connection error"
-msgstr "napaka povezave HTTP"
+msgstr ""
 
 #: searx/webapp.py:216
 msgid "proxy error"
-msgstr "napaka proxyja"
+msgstr ""
 
 #: searx/webapp.py:217
 msgid "CAPTCHA"
-msgstr "CAPTCHA"
+msgstr ""
 
 #: searx/webapp.py:218
 msgid "too many requests"
-msgstr "preveč prošenj"
+msgstr ""
 
 #: searx/webapp.py:219
 msgid "access denied"
-msgstr "dostop zavrnjen"
+msgstr ""
 
 #: searx/webapp.py:220
 msgid "server API error"
-msgstr "napaka API strežnika"
+msgstr ""
 
 #: searx/webapp.py:431
 msgid "No item found"
@@ -166,11 +164,11 @@ msgstr "Ni zadetkov"
 #: searx/engines/qwant.py:212
 #: searx/templates/simple/result_templates/images.html:23 searx/webapp.py:433
 msgid "Source"
-msgstr "Vir"
+msgstr ""
 
 #: searx/webapp.py:435
 msgid "Error loading the next page"
-msgstr "Napaka pri nalaganju naslednje strani"
+msgstr ""
 
 #: searx/webapp.py:547 searx/webapp.py:967
 msgid "Invalid settings, please edit your preferences"
@@ -194,7 +192,7 @@ msgstr "pred {hours} urami in {minutes} minut"
 
 #: searx/webapp.py:875
 msgid "Suspended"
-msgstr "Prekinjeno"
+msgstr ""
 
 #: searx/answerers/random/answerer.py:67
 msgid "Random value generator"
@@ -214,7 +212,7 @@ msgstr "Izračunaj {functions} argumentov"
 
 #: searx/engines/openstreetmap.py:156
 msgid "Get directions"
-msgstr "Pridobite navodila"
+msgstr ""
 
 #: searx/engines/pdbe.py:96
 msgid "{title} (OBSOLETE)"
@@ -796,7 +794,7 @@ msgstr ""
 
 #: searx/templates/oscar/preferences.html:419
 msgid "Query"
-msgstr "Poizvedba"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:426
 #: searx/templates/simple/preferences.html:345
@@ -1433,3 +1431,4 @@ msgstr ""
 #~ "search results but you can search "
 #~ "the engines listed here via bangs."
 #~ msgstr ""
+

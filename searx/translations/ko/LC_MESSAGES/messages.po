@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-02-21 11:52+0000\n"
-"PO-Revision-Date: 2022-03-18 07:17+0000\n"
-"Last-Translator: Joseph Ko <eaglclaws@gmail.com>\n"
+"PO-Revision-Date: 2022-03-09 02:41+0000\n"
+"Last-Translator: Markus Heiser <markus.heiser@darmarit.de>\n"
 "Language-Team: Korean <https://weblate.bubu1.eu/projects/searxng/searxng/ko/>"
 "\n"
 "Language: ko\n"
@@ -331,7 +331,7 @@ msgstr "오류!"
 
 #: searx/templates/oscar/base.html:85 searx/templates/simple/base.html:61
 msgid "Powered by"
-msgstr "Powered by"
+msgstr "제공:"
 
 #: searx/templates/oscar/base.html:85 searx/templates/simple/base.html:61
 msgid "a privacy-respecting, hackable metasearch engine"
@@ -577,62 +577,62 @@ msgstr "입력하는 대로 찾으세요"
 #: searx/templates/oscar/preferences.html:168
 #: searx/templates/simple/preferences.html:157
 msgid "Open Access DOI resolver"
-msgstr "오픈 엑세스 DOI 리졸버"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:169
 #: searx/templates/simple/preferences.html:167
 msgid ""
 "Redirect to open-access versions of publications when available (plugin "
 "required)"
-msgstr "가능 하면 오픈 엑세스 출판물로 넘겨주기 (플러그인 필요함)"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:183
 #: searx/templates/simple/preferences.html:171
 msgid "Engine tokens"
-msgstr "엔진토큰"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:184
 #: searx/templates/simple/preferences.html:175
 msgid "Access tokens for private engines"
-msgstr "사유 검색 엔진 엑세스 토큰"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:198
 #: searx/templates/simple/preferences.html:182
 msgid "Interface language"
-msgstr "인터페이스 언어"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:199
 #: searx/templates/simple/preferences.html:190
 msgid "Change the language of the layout"
-msgstr "레이아웃 언어 변경"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:210
 #: searx/templates/simple/preferences.html:195
 msgid "Theme"
-msgstr "테마"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:211
 #: searx/templates/simple/preferences.html:203
 msgid "Change SearXNG layout"
-msgstr "SearXNG 레이아웃 변경"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:222
 #: searx/templates/oscar/preferences.html:228
 msgid "Choose style for this theme"
-msgstr "이 테마에 대한 스타일 선택"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:222
 #: searx/templates/oscar/preferences.html:228
 msgid "Style"
-msgstr "스타일"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:231
 msgid "Show advanced settings"
-msgstr "고급 설정 열기"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:232
 msgid "Show advanced settings panel in the home page by default"
-msgstr "항상 시작 페이지에서 고급설정 패널 보기"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:235
 #: searx/templates/oscar/preferences.html:245
@@ -640,7 +640,7 @@ msgstr "항상 시작 페이지에서 고급설정 패널 보기"
 #: searx/templates/simple/preferences.html:222
 #: searx/templates/simple/preferences.html:234
 msgid "On"
-msgstr "사용"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:236
 #: searx/templates/oscar/preferences.html:246
@@ -648,32 +648,32 @@ msgstr "사용"
 #: searx/templates/simple/preferences.html:223
 #: searx/templates/simple/preferences.html:235
 msgid "Off"
-msgstr "사용안함"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:241
 #: searx/templates/simple/preferences.html:219
 msgid "Results on new tabs"
-msgstr "새 탭에서 결과 열기"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:242
 #: searx/templates/simple/preferences.html:226
 msgid "Open result links on new browser tabs"
-msgstr "새 탭에서 결과 링크를 엽니다"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:252
 #: searx/templates/simple/preferences.html:231
 msgid "Infinite scroll"
-msgstr "무한 스크롤"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:253
 #: searx/templates/simple/preferences.html:238
 msgid "Automatically load next page when scrolling to bottom of current page"
-msgstr "현재 페이지 하단까지 스크롤 했을 때 자동으로 다음 페이지 불러오기"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:273
 #: searx/templates/simple/preferences.html:247
 msgid "HTTP Method"
-msgstr "HTTP 메소드"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:274
 #: searx/templates/simple/preferences.html:254
@@ -682,62 +682,57 @@ msgid ""
 "href=\"http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\""
 " rel=\"external\">learn more about request methods</a>"
 msgstr ""
-"폼 제출 방법 변경,<a href=\"http://en.wikipedia.org/wiki/"
-"Hypertext_Transfer_Protocol#Request_methods\" rel=\"external\">요청 메소드에 "
-"대해 더 알아보기</a>"
 
 #: searx/templates/oscar/preferences.html:284
 #: searx/templates/simple/preferences.html:259
 msgid "Image proxy"
-msgstr "이미지 우회"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:285
 #: searx/templates/simple/preferences.html:266
 msgid "Proxying image results through SearXNG"
-msgstr "SearXNG를 통해 이미지 결과 우회"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:288
 #: searx/templates/oscar/preferences.html:299
 #: searx/templates/simple/preferences.html:262
 #: searx/templates/simple/preferences.html:274
 msgid "Enabled"
-msgstr "활성화됨"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:289
 #: searx/templates/oscar/preferences.html:300
 #: searx/templates/simple/preferences.html:263
 #: searx/templates/simple/preferences.html:275
 msgid "Disabled"
-msgstr "비활성화됨"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:295
 #: searx/templates/simple/preferences.html:271
 msgid "Query in the page's title"
-msgstr "페이지 제목에 검색어 표시"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:296
 #: searx/templates/simple/preferences.html:278
 msgid ""
 "When enabled, the result page's title contains your query. Your browser "
 "can record this title"
-msgstr "활성화 할 경우, 결과 페이지 제목에 검색어가 표시 됩니다. 페이지 제목은 "
-"브라우저가 기록할 수 있습니다"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:326
 msgid "Allow all"
-msgstr "모두 허용"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:327
 msgid "Disable all"
-msgstr "모두 거부"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:336
 #: searx/templates/simple/preferences.html:290
 msgid ""
 "This tab does not show up for search results, but you can search the "
 "engines listed here via bangs."
-msgstr "이 탭은 검색 결과에서 표시 되지 않으나, 느낌표을 입력하여 아래의 엔진으로 "
-"검색할 수 있습니다."
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:345
 #: searx/templates/oscar/preferences.html:361
@@ -745,25 +740,25 @@ msgstr "이 탭은 검색 결과에서 표시 되지 않으나, 느낌표을 입
 #: searx/templates/simple/preferences.html:296
 #: searx/templates/simple/stats.html:25
 msgid "Engine name"
-msgstr "검색엔진 이름"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:346
 #: searx/templates/oscar/preferences.html:360
 #: searx/templates/simple/preferences.html:297
 msgid "Shortcut"
-msgstr "단축 키 워드"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:347
 #: searx/templates/oscar/preferences.html:359
 msgid "Selected language"
-msgstr "선택언어 지원"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:349
 #: searx/templates/oscar/preferences.html:357
 #: searx/templates/oscar/time-range.html:2
 #: searx/templates/simple/preferences.html:300
 msgid "Time range"
-msgstr "기간"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:350
 #: searx/templates/oscar/preferences.html:356
@@ -771,13 +766,13 @@ msgstr "기간"
 #: searx/templates/simple/preferences.html:301
 #: searx/templates/simple/stats.html:28
 msgid "Response time"
-msgstr "응답시간"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:351
 #: searx/templates/oscar/preferences.html:355
 #: searx/templates/simple/preferences.html:302
 msgid "Max time"
-msgstr "최대시간"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:352
 #: searx/templates/oscar/preferences.html:354
@@ -785,514 +780,511 @@ msgstr "최대시간"
 #: searx/templates/simple/preferences.html:303
 #: searx/templates/simple/stats.html:29
 msgid "Reliability"
-msgstr "신뢰성"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:419
 msgid "Query"
-msgstr "검색어"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:426
 #: searx/templates/simple/preferences.html:345
 msgid "Keywords"
-msgstr "키워드"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:427
 #: searx/templates/simple/preferences.html:346
 msgid "Name"
-msgstr "이름"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:428
 #: searx/templates/simple/preferences.html:347
 msgid "Description"
-msgstr "설명"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:429
 #: searx/templates/simple/preferences.html:348
 msgid "Examples"
-msgstr "예시"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:434
 #: searx/templates/simple/preferences.html:351
 msgid "This is the list of SearXNG's instant answering modules."
-msgstr "SearXNG의 즉각응답 모듈 목록입니다."
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:447
 #: searx/templates/simple/preferences.html:362
 msgid "This is the list of plugins."
-msgstr "플러그인 목록입니다."
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:468
 #: searx/templates/simple/preferences.html:381
 msgid ""
 "This is the list of cookies and their values SearXNG is storing on your "
 "computer."
-msgstr "SearXNG이 컴퓨터에 저장하는 쿠키 목록입니다."
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:469
 #: searx/templates/simple/preferences.html:382
 msgid "With that list, you can assess SearXNG transparency."
-msgstr "이 목록으로 SearXNG의 투명성을 판단할 수 있습니다."
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:474
 #: searx/templates/simple/preferences.html:387
 msgid "Cookie name"
-msgstr "쿠키 이름"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:475
 #: searx/templates/simple/preferences.html:388
 msgid "Value"
-msgstr "값"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:492
 #: searx/templates/simple/preferences.html:409
 msgid ""
 "These settings are stored in your cookies, this allows us not to store "
 "this data about you."
-msgstr "설정은 쿠키에 저장 되기 때문에 서버측에서 설정 관련 사용자 정보를 저장하는 "
-"것은 불가능합니다."
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:493
 #: searx/templates/simple/preferences.html:411
 msgid ""
 "These cookies serve your sole convenience, we don't use these cookies to "
 "track you."
-msgstr "이 쿠키는 오직 편의를 위해 쓰이며, 추적에 이용하지 않습니다."
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:497
 #: searx/templates/simple/preferences.html:400
 msgid "Search URL of the currently saved preferences"
-msgstr "현재 설정이 적용된 검색 URL"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:498
 #: searx/templates/simple/preferences.html:404
 msgid ""
 "Note: specifying custom settings in the search URL can reduce privacy by "
 "leaking data to the clicked result sites."
-msgstr "검색 URL에 사용자 설정을 명시하면 결과 사이트에 데이터가 유출되어 사생활 "
-"보호가 약해질 수 있습니다."
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:503
 msgid "save"
-msgstr "저장"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:504
 msgid "back"
-msgstr "뒤로"
+msgstr ""
 
 #: searx/templates/oscar/preferences.html:505
 #: searx/templates/simple/preferences.html:415
 msgid "Reset defaults"
-msgstr "기본값 복원"
+msgstr ""
 
 #: searx/templates/oscar/results.html:32 searx/templates/simple/results.html:46
 msgid "Engines cannot retrieve results"
-msgstr "결과를 가져올 수 없습니다"
+msgstr ""
 
 #: searx/templates/oscar/results.html:53 searx/templates/simple/results.html:68
 msgid "Suggestions"
-msgstr "제안"
+msgstr ""
 
 #: searx/templates/oscar/results.html:74
 msgid "Links"
-msgstr "링크"
+msgstr ""
 
 #: searx/templates/oscar/results.html:79 searx/templates/simple/results.html:86
 msgid "Search URL"
-msgstr "검색 URL"
+msgstr ""
 
 #: searx/templates/oscar/results.html:84 searx/templates/simple/results.html:91
 msgid "Download results"
-msgstr "검색결과 다운로드"
+msgstr ""
 
 #: searx/templates/oscar/results.html:95
 msgid "RSS subscription"
-msgstr "RSS 구독"
+msgstr ""
 
 #: searx/templates/oscar/results.html:104
 msgid "Search results"
-msgstr "검색 결과"
+msgstr ""
 
 #: searx/templates/oscar/results.html:109
 #: searx/templates/simple/results.html:115
 msgid "Try searching for:"
-msgstr "다음을 검색 해보세요:"
+msgstr ""
 
 #: searx/templates/oscar/results.html:162
 #: searx/templates/oscar/results.html:187
 msgid "next page"
-msgstr "다음 페이지"
+msgstr ""
 
 #: searx/templates/oscar/results.html:169
 #: searx/templates/oscar/results.html:180
 msgid "previous page"
-msgstr "이전 페이지"
+msgstr ""
 
 #: searx/templates/oscar/search.html:6 searx/templates/oscar/search_full.html:9
 #: searx/templates/simple/search.html:8
 #: searx/templates/simple/simple_search.html:4
 msgid "Search for..."
-msgstr "다음을 검색..."
+msgstr ""
 
 #: searx/templates/oscar/search.html:8
 #: searx/templates/oscar/search_full.html:11
 msgid "Start search"
-msgstr "검색 시작"
+msgstr ""
 
 #: searx/templates/oscar/search.html:9
 #: searx/templates/oscar/search_full.html:12
 msgid "Clear search"
-msgstr "검색 지우기"
+msgstr ""
 
 #: searx/templates/oscar/search_full.html:12
 msgid "Clear"
-msgstr "지우기"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:4
 msgid "stats"
-msgstr "통계"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:30 searx/templates/simple/stats.html:26
 msgid "Scores"
-msgstr "점수"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:31 searx/templates/simple/stats.html:27
 msgid "Result count"
-msgstr "결과 개수"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:42 searx/templates/simple/stats.html:38
 msgid "Scores per result"
-msgstr "검색결과당 점수"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:65 searx/templates/simple/stats.html:62
 msgid "Total"
-msgstr "합계"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:66 searx/templates/simple/stats.html:63
 msgid "HTTP"
-msgstr "HTTP"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:67 searx/templates/simple/stats.html:64
 msgid "Processing"
-msgstr "처리"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:106 searx/templates/simple/stats.html:102
 msgid "Warnings"
-msgstr "경고"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:106 searx/templates/simple/stats.html:102
 msgid "Errors and exceptions"
-msgstr "에러와 예외"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:112 searx/templates/simple/stats.html:108
 msgid "Exception"
-msgstr "예외"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:114 searx/templates/simple/stats.html:110
 msgid "Message"
-msgstr "메시지"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:116 searx/templates/simple/stats.html:112
 msgid "Percentage"
-msgstr "백분율"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:118 searx/templates/simple/stats.html:114
 msgid "Parameter"
-msgstr "매개변수"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/files.html:35
 #: searx/templates/oscar/stats.html:126 searx/templates/simple/stats.html:122
 msgid "Filename"
-msgstr "파일명"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:127 searx/templates/simple/stats.html:123
 msgid "Function"
-msgstr "함수"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:128 searx/templates/simple/stats.html:124
 msgid "Code"
-msgstr "코드"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:135 searx/templates/simple/stats.html:131
 msgid "Checker"
-msgstr "검사 프로그램"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:138 searx/templates/simple/stats.html:134
 msgid "Failed test"
-msgstr "테스트 실패"
+msgstr ""
 
 #: searx/templates/oscar/stats.html:139 searx/templates/simple/stats.html:135
 msgid "Comment(s)"
-msgstr "설명"
+msgstr ""
 
 #: searx/templates/oscar/time-range.html:5
 #: searx/templates/simple/filters/time_range.html:3
 msgid "Anytime"
-msgstr "전체"
+msgstr ""
 
 #: searx/templates/oscar/time-range.html:8
 #: searx/templates/simple/filters/time_range.html:6
 msgid "Last day"
-msgstr "전날"
+msgstr ""
 
 #: searx/templates/oscar/time-range.html:11
 #: searx/templates/simple/filters/time_range.html:9
 msgid "Last week"
-msgstr "전주"
+msgstr ""
 
 #: searx/templates/oscar/time-range.html:14
 #: searx/templates/simple/filters/time_range.html:12
 msgid "Last month"
-msgstr "전달"
+msgstr ""
 
 #: searx/templates/oscar/time-range.html:17
 #: searx/templates/simple/filters/time_range.html:15
 msgid "Last year"
-msgstr "전년"
+msgstr ""
 
 #: searx/templates/oscar/messages/first_time.html:6
 #: searx/templates/oscar/messages/no_data_available.html:3
 msgid "Heads up!"
-msgstr "조심하세요!"
+msgstr ""
 
 #: searx/templates/oscar/messages/first_time.html:7
 msgid "It look like you are using SearXNG first time."
-msgstr "SearXNG를 처음 쓰시는 것 같군요."
+msgstr ""
 
 #: searx/templates/oscar/messages/no_cookies.html:3
 msgid "Information!"
-msgstr "알림!"
+msgstr ""
 
 #: searx/templates/oscar/messages/no_cookies.html:4
 msgid "currently, there are no cookies defined."
-msgstr "현재 정의된 쿠기가 없습니다."
+msgstr ""
 
 #: searx/templates/oscar/messages/no_data_available.html:4
 #: searx/templates/simple/stats.html:21
 msgid "There is currently no data available. "
-msgstr "데이터가 존재하지 않습니다."
+msgstr ""
 
 #: searx/templates/oscar/messages/no_results.html:4
 #: searx/templates/simple/messages/no_results.html:6
 msgid "Engines cannot retrieve results."
-msgstr "검색결과를 가져올 수 없습니다."
+msgstr ""
 
 #: searx/templates/oscar/messages/no_results.html:13
 #: searx/templates/simple/messages/no_results.html:15
 msgid "Please, try again later or find another SearXNG instance."
-msgstr "다음에 시도하거나 다른 SearXNG 객체를 이용해주세요."
+msgstr ""
 
 #: searx/templates/oscar/messages/no_results.html:17
 #: searx/templates/simple/messages/no_results.html:20
 msgid "Sorry!"
-msgstr "죄송합니다!"
+msgstr ""
 
 #: searx/templates/oscar/messages/no_results.html:18
 #: searx/templates/simple/messages/no_results.html:21
 msgid ""
 "we didn't find any results. Please use another query or search in more "
 "categories."
-msgstr "검색결과를 찾을 수 없습니다. 다른 검색어로 검색하거나 검색 범주를 "
-"추가해주세요."
+msgstr ""
 
 #: searx/templates/oscar/messages/save_settings_successfull.html:7
 msgid "Well done!"
-msgstr "잘 하셨습니다!"
+msgstr ""
 
 #: searx/templates/oscar/messages/save_settings_successfull.html:8
 msgid "Settings saved successfully."
-msgstr "설정을 성공적으로 저장했습니다."
+msgstr ""
 
 #: searx/templates/oscar/messages/unknow_error.html:7
 msgid "Oh snap!"
-msgstr "이런!"
+msgstr ""
 
 #: searx/templates/oscar/messages/unknow_error.html:8
 msgid "Something went wrong."
-msgstr "문제가 발생했습니다."
+msgstr ""
 
 #: searx/templates/oscar/result_templates/default.html:7
 #: searx/templates/oscar/result_templates/files.html:7
 #: searx/templates/oscar/result_templates/files.html:10
 #: searx/templates/simple/result_templates/default.html:6
 msgid "show media"
-msgstr "미디어 표시"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/default.html:7
 #: searx/templates/oscar/result_templates/files.html:7
 #: searx/templates/simple/result_templates/default.html:6
 msgid "hide media"
-msgstr "미디어 숨기기"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/files.html:33
 #: searx/templates/oscar/result_templates/videos.html:19
 #: searx/templates/simple/result_templates/images.html:21
 msgid "Author"
-msgstr "저자"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/files.html:37
 #: searx/templates/oscar/result_templates/torrent.html:7
 #: searx/templates/simple/result_templates/torrent.html:11
 msgid "Filesize"
-msgstr "파일 크기"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/files.html:38
 #: searx/templates/oscar/result_templates/torrent.html:9
 #: searx/templates/simple/result_templates/torrent.html:12
 msgid "Bytes"
-msgstr "바이트"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/files.html:39
 #: searx/templates/oscar/result_templates/torrent.html:10
 #: searx/templates/simple/result_templates/torrent.html:13
 msgid "kiB"
-msgstr "kiB"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/files.html:40
 #: searx/templates/oscar/result_templates/torrent.html:11
 #: searx/templates/simple/result_templates/torrent.html:14
 msgid "MiB"
-msgstr "MiB"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/files.html:41
 #: searx/templates/oscar/result_templates/torrent.html:12
 #: searx/templates/simple/result_templates/torrent.html:15
 msgid "GiB"
-msgstr "GiB"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/files.html:42
 #: searx/templates/oscar/result_templates/torrent.html:13
 #: searx/templates/simple/result_templates/torrent.html:16
 msgid "TiB"
-msgstr "TiB"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/files.html:46
 msgid "Date"
-msgstr "날짜"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/files.html:48
 msgid "Type"
-msgstr "형식"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/images.html:27
 msgid "Get image"
-msgstr "이미지 가져오기"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/images.html:30
 #: searx/templates/simple/result_templates/images.html:25
 msgid "View source"
-msgstr "소스 보기"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/map.html:26
 #: searx/templates/simple/result_templates/map.html:12
 msgid "address"
-msgstr "주소"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/map.html:59
 #: searx/templates/simple/result_templates/map.html:43
 msgid "show map"
-msgstr "지도 표시"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/map.html:59
 #: searx/templates/simple/result_templates/map.html:43
 msgid "hide map"
-msgstr "지도 숨기기"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/torrent.html:6
 #: searx/templates/simple/result_templates/torrent.html:9
 msgid "Seeder"
-msgstr "시드"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/torrent.html:6
 #: searx/templates/simple/result_templates/torrent.html:9
 msgid "Leecher"
-msgstr "리치"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/torrent.html:15
 #: searx/templates/simple/result_templates/torrent.html:20
 msgid "Number of Files"
-msgstr "파일 개수"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/videos.html:7
 #: searx/templates/simple/result_templates/videos.html:6
 msgid "show video"
-msgstr "비디오 표시"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/videos.html:7
 #: searx/templates/simple/result_templates/videos.html:6
 msgid "hide video"
-msgstr "비디오 숨기기"
+msgstr ""
 
 #: searx/templates/oscar/result_templates/videos.html:20
 msgid "Length"
-msgstr "길이"
+msgstr ""
 
 #: searx/templates/simple/categories.html:16
 msgid "Click on the magnifier to perform search"
-msgstr "돋보기를 클릭하여 검색을 시작하세요"
+msgstr ""
 
 #: searx/templates/simple/preferences.html:85
 msgid "Errors:"
-msgstr "에러:"
+msgstr ""
 
 #: searx/templates/simple/preferences.html:179
 msgid "User interface"
-msgstr "사용자 인터페이스"
+msgstr ""
 
 #: searx/templates/simple/preferences.html:206
 msgid "Theme style"
-msgstr "테마 스타일"
+msgstr ""
 
 #: searx/templates/simple/preferences.html:214
 msgid "Choose auto to follow your browser settings"
-msgstr "'자동'을 선택하면 브라우저 기본설정에 맞춥니다"
+msgstr ""
 
 #: searx/templates/simple/preferences.html:285
 msgid "Currently used search engines"
-msgstr "현재 사용중인 검색 엔진"
+msgstr ""
 
 #: searx/templates/simple/preferences.html:298
 msgid "Supports selected language"
-msgstr "선택 언어 지원함"
+msgstr ""
 
 #: searx/templates/simple/preferences.html:414
 msgid "Save"
-msgstr "저장"
+msgstr ""
 
 #: searx/templates/simple/preferences.html:416
 msgid "Back"
-msgstr "뒤로"
+msgstr ""
 
 #: searx/templates/simple/results.html:23
 msgid "Answers"
-msgstr "답변"
+msgstr ""
 
 #: searx/templates/simple/results.html:164
 msgid "Previous page"
-msgstr "이전 페이지"
+msgstr ""
 
 #: searx/templates/simple/results.html:181
 msgid "Next page"
-msgstr "다음 페이지"
+msgstr ""
 
 #: searx/templates/simple/search.html:9
 #: searx/templates/simple/simple_search.html:5
 msgid "clear"
-msgstr "지우기"
+msgstr ""
 
 #: searx/templates/simple/search.html:10
 #: searx/templates/simple/simple_search.html:6
 msgid "search"
-msgstr "검색"
+msgstr ""
 
 #: searx/templates/simple/result_templates/default.html:14
 #: searx/templates/simple/result_templates/videos.html:14
 msgid "This site did not provide any description."
-msgstr "사이트에서 소개를 제공하지 않았습니다."
+msgstr ""
 
 #: searx/templates/simple/result_templates/images.html:22
 msgid "Format"
-msgstr "포멧"
+msgstr ""
 
 #: searx/templates/simple/result_templates/images.html:24
 msgid "Engine"
-msgstr "검색엔진"
+msgstr ""
